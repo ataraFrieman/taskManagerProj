@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManager", "TaskManager\TaskManager.csproj", "{A9A7C0C7-B376-49B5-8563-4EF768F67C0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{3EAA0342-0F7D-4A25-905C-F4DD456898F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{EF67CFDC-4EAE-4B55-8B7C-F4EB93B94CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A283FEE7-26DD-4406-AE34-D95E91D73607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{A9A7C0C7-B376-49B5-8563-4EF768F67C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A7C0C7-B376-49B5-8563-4EF768F67C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9A7C0C7-B376-49B5-8563-4EF768F67C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAA0342-0F7D-4A25-905C-F4DD456898F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAA0342-0F7D-4A25-905C-F4DD456898F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAA0342-0F7D-4A25-905C-F4DD456898F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAA0342-0F7D-4A25-905C-F4DD456898F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF67CFDC-4EAE-4B55-8B7C-F4EB93B94CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF67CFDC-4EAE-4B55-8B7C-F4EB93B94CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF67CFDC-4EAE-4B55-8B7C-F4EB93B94CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF67CFDC-4EAE-4B55-8B7C-F4EB93B94CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A283FEE7-26DD-4406-AE34-D95E91D73607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A283FEE7-26DD-4406-AE34-D95E91D73607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A283FEE7-26DD-4406-AE34-D95E91D73607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A283FEE7-26DD-4406-AE34-D95E91D73607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
