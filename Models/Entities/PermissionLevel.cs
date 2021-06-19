@@ -8,6 +8,6 @@ namespace MODELS.Entities
         {
             Admin=1,
             Editor=2,
-            viewer=3
+            Viewer=3
         }
 }
