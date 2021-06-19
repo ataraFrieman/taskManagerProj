@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using AutoMapper;
+
 
 namespace TaskManager
 {
@@ -22,6 +24,12 @@ namespace TaskManager
         {
 
             services.AddControllersWithViews();
+            services.AddAutoMapper(
+               cfg =>
+               {
+                   cfg.ForAllMaps((obj, cnfg) => cnfg.ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null)));
+               }
+               );
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

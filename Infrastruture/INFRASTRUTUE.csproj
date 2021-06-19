@@ -10,9 +10,4 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Infrastruture\INFRASTRUTUE.csproj" />
-    <ProjectReference Include="..\Models\MODELS.csproj" />
-  </ItemGroup>
-
 </Project>
